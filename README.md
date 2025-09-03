@@ -1,62 +1,73 @@
-RoomieFindApp
-RoomieFindApp is a mobile application built with React Native using the Expo framework. The app helps users find roommates and connect with potential matches for shared accommodation.
+🏠 RoomieFind App
 
-Features
-User registration and login screens
+The RoomieFind App is a cross-platform mobile application built with React Native to help students and individuals easily find hostels, flats, rooms, and roommates. It offers smart search filters and personalized recommendations to simplify the roommate-hunting experience. 🚀
 
-Welcome and onboarding experience
+📖 About
 
-Interactive home screen with card stack swiper
+Finding the right roommate or place to live can be tough. RoomieFind App makes it simple by allowing users to filter listings based on budget, gender, lifestyle, and location while providing a flexible roommate matching system.
 
-Secure storage using Async Storage
+✨ Features
 
-Smooth navigation with React Navigation (stack & bottom tabs)
+🔎 Advanced Filter-Based Search – Search listings by budget, gender, lifestyle, and preferences.
 
-Voice command support via VoiceContext
+🏘 Real-Time Listings – Explore up-to-date hostels, flats (1BHK/2BHK), and shared rooms.
 
-Beautiful UI with custom icons and responsive design
+👥 Roommate Matching – Personalize your roommate search with advanced matching options.
 
-Folder Structure
-/screens — All screen components (Splash, Welcome, Login, Register, etc.)
+📱 Cross-Platform Support – Works seamlessly on Android and iOS.
 
-/components — Reusable UI components
+🎨 Modern UI/UX – User-friendly interface with smooth navigation.
 
-/assets — Images, videos, icons
+🛠 Technologies Used
 
-/context — Contexts for app state management
+⚛ React Native
 
-/Navigation1 — Navigation setup
+🌐 REST APIs (real-time data handling)
 
-/utils — Utility functions
+🎛 React Navigation (stack & tab navigation)
 
-/backend — Back-end code (if applicable)
+🎨 Styled Components / Custom UI Design
 
-Getting Started
-Prerequisites
-Node.js & npm/yarn
+🚀 Installation
 
-Expo CLI (npm install -g expo-cli)
+Clone the repository:
 
-Installation
-bash
 git clone https://github.com/Suraj88658917/RoomieFindApp.git
 cd RoomieFindApp
+
+
+Install dependencies:
+
 npm install
-Running the App
-bash
-npm start
-Then scan the QR code with Expo Go or run on an emulator.
+# or
+yarn install
 
-Technologies Used
-React Native
 
-Expo
+Run the app:
 
-React Navigation
+npm run android   # For Android  
+npm run ios       # For iOS  
 
-Async Storage
+📂 Project Structure
 
-Reanimated & Gesture Handler
+App.js – App entry point with navigation.
 
-License
-This project is licensed under the MIT License.
+screens/ – Contains UI screens (Home, Filters, Roommate Match, etc.).
+
+components/ – Reusable UI components.
+
+assets/ – Images, icons, and static files.
+
+api/ – REST API integration for real-time listings.
+
+📸 Screenshots
+
+(Add some app screenshots/gifs here – e.g., Filter Screen, Listings Screen, Roommate Matching Screen)
+
+📬 Contact
+
+📧 Email: surajsaini1679@gmail.com
+
+💻 GitHub: Suraj88658917
+
+🔗 LinkedIn: Suraj Saini
